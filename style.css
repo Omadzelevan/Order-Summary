@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 62.5%;
+}
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.card-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+  height: 85%;
+  border-radius: 1rem;
+  background: #fff;
+  overflow: hidden;
+  width: 30%;
+}
+.hero-img {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.hero-img img {
+  width: 100%;
+}
+.texts {
+  text-align: center;
+  width: 60%;
+}
+
+.summary {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.texts p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.plan-box {
+  display: flex;
+  width: 80%;
+
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eeecec;
+  border-radius: 2rem;
+  padding: 1rem 4rem;
+  margin-bottom: 3rem;
+}
+.plan-box p {
+  font-weight: 500;
+  margin-top: 0.4rem;
+}
+.change-button {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+.payment-button {
+  border-radius: 1rem;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.1);
+  color: white;
+  width: 80%;
+  text-align: center;
+  text-decoration: none;
+  /* height: 4rem; */
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  background-color: rgb(113, 61, 226);
+}
+
+.button-cancel {
+  text-decoration: none;
+  text-align: center;
+  border-radius: 1rem;
+}
